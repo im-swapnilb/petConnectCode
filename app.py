@@ -4,12 +4,12 @@
 # In[11]:
 
 
-# import numpy as np
+import numpy as np
 import pandas as pd
 import flask as Flask
 from flask import request
 from flask import render_template
-# import pickle
+import pickle
 
 
 # In[12]:
@@ -36,8 +36,8 @@ def home():
 
 
 # In[16]:
-
-
+#
+#
 # @app.route('/linkedin', methods = ['GET'])
 # def linkedin():
 #     # if request.method == 'POST':
@@ -54,6 +54,7 @@ def home():
 #     #     else:
 #     #         prediction = 'Please, start working out'
 #         return render_template("linkedin.html")
+#
 
 
 # In[17]:
